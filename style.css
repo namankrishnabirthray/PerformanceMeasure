@@ -1,12 +1,24 @@
 body{
 background: #645757;
 }
+.logo{
+text-indent: -999999px;
+background:  url(../logo.png);
+width : 260px;
+height: 100px;
 
-.offer img{
+
+}
+table {
+    border:none !important;
+    border-spacing: 10px 0 !important;
+    /* override bootstrap default */
+    border-collapse:separate !important;
+}
   
-  
- padding: -80px;
-  width: 200px;
-  margin: -8px;
-px auto;
+  td {
+  background: pink;
+  padding: 1em;
+  /* for demo only - not a border */
+  outline:1px solid grey;
 }
